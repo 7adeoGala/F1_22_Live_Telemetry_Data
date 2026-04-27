@@ -69,7 +69,7 @@ export default function App() {
       <div className={`status-indicator ${connectionStatus.toLowerCase()}`}>
         Status: {connectionStatus}
       </div>
-      
+
       <div className="telemetry-data">
         <div className="data-box">
           <h3>Packet ID</h3>
